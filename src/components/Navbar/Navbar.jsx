@@ -17,7 +17,7 @@ const Navbar = ({totalItems}) => {
 				<Toolbar>
 					<img src = {logo} alt = "Commerce.js" height = "50px" className = "classes.image" style = {{marginRight : "10px"}}/>
 					<Typography component = {Link} to = "/"  variant = "h6" className = {classes.title} color = "inherit">
-						RentAPaw!
+						Peaky Pets
 					</Typography>
 					<div className = {classes.grow}/>
 					{location.pathname === "/"  && (
